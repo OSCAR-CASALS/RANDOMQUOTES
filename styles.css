@@ -18,7 +18,6 @@ body{
 .background{
     width: 100%;
     height: 100%;
-    position: absolute;
     top: 0;
     left: 0;
     background-image: url(https://www.publicdomainpictures.net/pictures/330000/velka/image-1586716592K15.jpg);
@@ -29,7 +28,6 @@ body{
 }
 
 .center{
-    position: absolute;
     top: 50%;
     width: 100%;
     transform: translate(0, -50%); 
