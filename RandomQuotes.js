@@ -53,7 +53,8 @@ class App extends React.Component{
         return(<div style={{padding: "20px 160px", margin: "auto", width: "50%", fontFamily: "Verdana, sans-serif", backgroundColor: "white", borderRadius: "9px"}}>
                 <h2 id="text" style={{textAlign: "center", whiteSpace: "pre-line"}}>"{quote[0]}"</h2>
                 <h4 id="author" style={{textAlign: "right", marginRight: "40px"}}>-{quote[1]}</h4>
-                <button id="new-quote" onClick={this.handleClick} style={{float: "right", display: "inline-block", height: "50px", backgroundColor: "black", color: "white", border: "0", marginRight: "40px", fontWeight: "bold"}}>Another quote</button><a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener noreferrer" style={{float: "right",display: "inline-block", marginRight:"20px"}}><img src="https://graffica.ams3.digitaloceanspaces.com/2023/07/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" alt ="X logo" width="50px" /></a>
+                <button id="new-quote" onClick={this.handleClick} style={{float: "right", height: "50px", backgroundColor: "black", color: "white", border: "0", marginRight: "40px", fontWeight: "bold"}}>Another quote</button><br />
+                <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener noreferrer" style={{float: "right", marginRight:"20px"}}><img src="https://graffica.ams3.digitaloceanspaces.com/2023/07/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" alt ="X logo" width="50px" /></a>
                 <br />
                 <br />
                 <br />
